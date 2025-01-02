@@ -8,7 +8,7 @@ function App() {
     {
       films?.map((film)=>(
         // films elemanlarına tek tek Film componenti içinde "filmPropu" adı altında olarak erişebilirsiniz
-        <Film key={film.id} filmPropu={film}/>
+        <Film key={film.id} filmPropsu={film}/>
       ))
     }
     </>
